@@ -1,0 +1,18 @@
+{
+  "name": "ev_data",
+  "version": "1.0.0",
+  "description": "Recurrent exercise",
+  "main": "ev_data_query.js",
+  "author": "Ezequiel Lopez <skiel.j.lopez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "query": "node ev_data_query.js"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
